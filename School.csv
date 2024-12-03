@@ -1,0 +1,24 @@
+﻿requirement
+"The system shall provide functionality to allow users to add a new student to the database. This includes input fields for the student's personal details, academic information, and any other relevant data."
+"The system shall allow users to modify details of an existing student record. Users can update personal information, academic records, and other relevant data as necessary."
+"The system shall provide the option to delete a student record, given that the record is not linked to any other dependent data. The system should ensure data integrity by checking dependencies before deletion."
+"The system shall provide functionality to allow users to add a new employee to the database. This includes input fields for the employee's personal details, job information, and any other relevant data."
+"The system shall allow users to modify details of an existing employee record. Users can update personal information, job details, and any other relevant data as necessary."
+"The system shall provide the option to delete an employee record, given that the record is not linked to any other dependent data. The system should ensure data integrity by checking dependencies before deletion."
+The system shall allow users to define and input fees associated with each class and rank/designation. This fee structure will be used to calculate the total fee for students.
+The system shall automatically calculate the fee for each student based on their class and rank/designation. This calculation should be accurate and reflect any predefined fee structures.
+"The system shall generate a fee slip for each student. This slip should include the calculated fee, student details, and any other relevant information."
+"The system shall automatically calculate the salary of each employee based on the provided salary details, recorded absences, and any unpaid or paid leaves. This calculation should be accurate and comprehensive."
+"The system shall generate and print a salary slip for each employee. This slip should include the calculated salary, employee details, and any other relevant information."
+The system shall allow users to block a student who is on leave or to unblock a student who is re-enrolled. Blocking a student should mark their record as inactive without deleting it.
+The system shall allow users to block an employee who is on leave or to unblock an employee who is re-enrolled. Blocking an employee should mark their record as inactive without deleting it.
+The system shall provide a search functionality that allows users to find student fee records using the student's roll number. This search should be quick and return accurate results.
+The system shall provide a search functionality that allows users to find teacher records using the employee number. Users can also apply various filters to refine their search results.
+"The system shall allow users to generate student fee reports for custom durations such as Monthly, Quarterly, Bi-Annually, and Annually. These reports should provide detailed fee collection data for the specified period."
+"The system shall allow users to generate employee salary reports for custom durations such as Monthly, Quarterly, Bi-Annually, and Annually. These reports should provide detailed salary payment data for the specified period."
+"The system shall allow users to record attendance for each teacher. This includes marking present, absent, and any other attendance-related statuses."
+The system shall allow users to record leaves and absences for each teacher. This includes specifying the type of leave (paid or unpaid) and the duration.
+"The system shall provide functionality to view the complete fee history of a student. This includes all past fee payments, outstanding balances, and any other relevant information."
+"The system shall provide functionality to view the complete pay history of an employee. This includes all past salary payments, deductions, and any other relevant information."
+"The system shall allow users to add new classes. This includes specifying class names, levels, and other relevant information."
+The system shall allow users to add new ranks or designations. This includes specifying the titles and any other relevant details.

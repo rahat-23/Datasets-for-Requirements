@@ -1,0 +1,27 @@
+﻿requirement
+Employees should manually mark their attendance upon entering the office.
+"If an employee forgets to mark attendance, the system should automatically mark the attendance after a predefined time if no entry exists for the current date."
+"A new entry should be created in the attendance table with the employee ID, status (present/absent), and date if no entry already exists."
+"For each check-in, a new entry should be made in the attendance details table with the employee attendance ID, check-in time, status, and date."
+Employees should mark checkout manually when they are leaving the office.
+Automatic checkout should occur if the employee leaves the office area or starts a client trip.
+The previous check-in entry should be updated with the checkout time and status if there is no checkout time.
+Employees should be able to mark their break check-out by clicking a button in the app.
+The check-out time and status should be updated in the attendance details table.
+Employees should mark their break check-in by clicking a button in the app when they finish their break.
+The break time table should be updated with the check-in time and status.
+Employees should be able to select a client from a dropdown menu and start the trip.
+The dropdown menu should only show clients associated with the employee.
+"A new entry should be created in the meetings table with the employee attendance ID, client ID, trip start time, status, and date."
+"Upon arrival at the client's location, the trip end time should be updated, and the total trip hours should be calculated."
+"When the meeting starts, the meeting start time should be updated."
+"When the meeting ends, the meeting end time and status should be updated, and the total meeting time should be calculated."
+"If no entry exists for the current date in the main attendance table, a new entry with present status should be created."
+The trip start and meeting start processes should follow the same steps as when starting from the office.
+The total work hours for the office should be calculated based on the check-in and checkout times and updated in the main attendance table.
+"A new entry should be added in the break time table with the employee attendance ID, check-out time, status, and date."
+"A new entry should be added in the attendance details table with the employee attendance ID, check-in time, status, and date after break check-in."
+Feedback form results should be saved in the meetings details table.
+Work Hours Road should be updated whenever a trip end time entry is made in the meetings table by calculating the hours based on the trip start and trip end times.
+Work Hours Client should be updated whenever a meeting end time entry is made in the attendance details table by calculating the hours based on the meeting start and meeting end times.
+Break Hours should be updated whenever a break check-in time entry is made in the break time table by calculating the hours based on the break check-out and check-in times.

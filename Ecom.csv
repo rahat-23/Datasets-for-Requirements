@@ -1,0 +1,21 @@
+﻿requirement
+Design a landing page providing maximum information about services and products.
+"Design key pages including: Categories, Category-wise products, Product details, Brand-wise products, Register User, Cart Page, Check out Page, My Account, My Orders."
+Convert the designed pages into functional web pages through coding.
+Implement a user registration system to collect and store user information.
+Display products on main and inner pages based on user requests.
+Provide detailed product views and selection parameters.
+Enable registered users to add products to a cart.
+Implement a checkout process for users to complete their purchases.
+Maintain a history of user orders for future reference.
+Authenticate admin users with a username and password to grant access to admin tasks.
+Allow admin users to add information to the website and specify display locations.
+Enable admin users to modify or delete previously added information.
+Provide functionality for the admin to manage products in the CMS.
+Enable the admin to manage customer information.
+"Allow the admin to manage orders, including changing order status, viewing, and deleting orders."
+Maintain a complete record of sold and purchased items.
+"Generate notifications for sales, including minimum quantity and purchase notifications."
+Maintain records for direct suppliers and their products.
+"Provide role-based admin accounts, granting access to relevant information based on roles."
+Provide reseller accounts that allow suppliers to manage their products on the portal with admin permission.
